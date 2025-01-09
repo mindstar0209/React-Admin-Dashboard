@@ -10,7 +10,11 @@
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@babel/plugin-syntax-flow": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
+    "@popperjs/core": "^2.11.8",
     "@tanem/react-nprogress": "^5.0.51",
+    "@testing-library/dom": "^10.4.0",
     "@vitejs/plugin-react": "^4.2.1",
     "apexcharts": "^3.49.0",
     "bootstrap": "^5.3.3",
