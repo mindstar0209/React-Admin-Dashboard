@@ -1,0 +1,71 @@
+/* nav slider */
+.pcoded-navbar:not(.theme-horizontal) .navbar-content {
+  height: calc(100% - 56px);
+}
+
+/* search */
+.search-bar {
+  display: block;
+}
+
+/* menu */
+.pcoded-navbar {
+  .pcoded-inner-navbar {
+    > li {
+      > a.active {
+        background: rgba(202, 202, 202, 0.3);
+        &:before {
+          background: $primary-color;
+        }
+      }
+    }
+    li {
+      > a.active {
+        font-weight: 600;
+      }
+      .pcoded-submenu > li {
+        &.active,
+        &:focus,
+        &:hover {
+          > a,
+          > a.active {
+            &:before {
+              background: $primary-color;
+            }
+          }
+        }
+        > a.active {
+          &:before {
+            background: $primary-color;
+          }
+        }
+      }
+    }
+
+    > .pcoded-menu-caption {
+      &.active,
+      &.pcoded-trigger {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* card header */
+.card .card-header + .collapse {
+  .card-body {
+    padding-top: 0;
+  }
+}
+
+.go2791332690:before {
+  bottom: -4.85em !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .hover-blk {
+    display: none;
+  }
+}

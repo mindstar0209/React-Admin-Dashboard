@@ -1,0 +1,84 @@
+// =======================================
+//     List of variables for layout
+// =======================================
+
+$header-height: 56px;
+// $Menu-width: 250px;
+$Menu-width: 235px;
+$Menu-collapsed-width: 70px;
+
+// color list for build layouts
+$primary-color: #4099ff;
+$warning-color: #ffb64d;
+$danger-color: #ff5370;
+$success-color: #2ed8b6;
+$purple-color: #7759de;
+$info-color: #00bcd4;
+$secondary-color: #748892;
+$default-color: #d6d6d6;
+$light-color: #eceff1;
+$dark-color: #263238;
+$inverse-color: $dark-color;
+$theme-border: #e2e5e8;
+
+// header
+$header-dark-background: #3b4650;
+$header-dark-text-color: #fff;
+$header-light-background: #fff;
+$header-light-text-color: #3b4650;
+
+// Menu
+$menu-dark-background: #3b4650;
+$menu-dark-text-color: #b9c7d4;
+
+$menu-light-background: #fff;
+$menu-light-text-color: #666;
+$menu-active-color: $primary-color;
+
+// Header background
+$color-header-name: 'blue';
+$color-header-color: #4099ff;
+$color-header-color2: #73b4ff;
+
+// Menu background
+$color-menu-name: 'blue';
+$color-menu-color: #4099ff;
+
+// Menu background gradient
+$color-menu-gradient-name: 'blue';
+$color-menu-gradient-color: linear-gradient(to bottom, #7759de 0%, #4099ff 100%);
+
+// Active background color
+$color-active-name: 'blue';
+$color-active-color: #4099ff;
+
+$theme-font-family: 'Poppins', sans-serif;
+$theme-font-size: 14px;
+$theme-background: #f6f7fb;
+$theme-font-color: #222;
+$theme-heading-color: #222;
+
+$color-name: c-blue, c-red, c-green, c-yellow, c-purple;
+$color-color: $primary-color, $danger-color, $success-color, $warning-color, $purple-color;
+$color-bt-name: 'primary', 'danger', 'success', 'warning', 'info', 'purple';
+$color-bt-color: $primary-color, $danger-color, $success-color, $warning-color, $info-color, $purple-color;
+
+// form-control variables
+$form-bg: #f0f3f6;
+
+// =====================================================================
+// ==================   Bootstrap Extra Variable  ======================
+// =====================================================================
+
+// Color contrast
+$yiq-contrasted-threshold: 200;
+$yiq-dark-color: #37474f;
+$yiq-light-color: #fff;
+$theme-color-interval: 8%;
+$alert-bg-level: -10;
+$alert-border-level: -9;
+$alert-color-level: 6;
+
+// card block css
+$card-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+$card-header-border: 0px solid #e2e5e8;

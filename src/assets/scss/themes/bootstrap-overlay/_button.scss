@@ -1,0 +1,35 @@
+/**  =====================
+      button css start
+==========================  **/
+.btn-page {
+  .btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .btn-group-vertical,
+  .btn-group {
+    .btn {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.btn {
+  border-radius: 5px;
+}
+.btn-primary {
+  color: #fff !important;
+}
+.btn-success {
+  color: #fff !important;
+}
+.btn-info {
+  color: #fff !important;
+}
+.btn-warning {
+  color: #fff !important;
+}
+.btn-danger {
+  color: #fff !important;
+}
